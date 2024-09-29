@@ -1,0 +1,103 @@
+body {
+  overflow-x: hidden !important;
+  font-family: "Manrope", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#myVideo {
+  /* max-width: 100%; */
+  min-width: 100%;
+  position: fixed;
+}
+#sect {
+  position: absolute;
+  z-index: 2;
+  top: 1%;
+}
+#subSec {
+  width: 100%;
+  margin: 16px;
+  /*padding: 16px; */
+}
+.below {
+  color: rgb(140 141 146);
+}
+#sect > #subSec > h1 {
+  color: white;
+}
+
+input {
+  background: transparent;
+  border: 0;
+}
+label {
+  color: rgb(189 190 193);
+  font-weight: 500 !important;
+  font-size: 14px;
+  margin-top: 27px;
+}
+input {
+  border: 1px solid rgb(155, 152, 152);
+  margin-top: 8px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  color: whitesmoke;
+}
+input::placeholder {
+  font-size: 14px;
+  /* color: whitesmoke; */
+}
+input:hover {
+  border: 1px solid rgb(124, 58, 237) !important;
+}
+input:focus {
+  border: 1px solid rgb(124, 58, 237) !important;
+}
+.wh {
+  width: 550px;
+  height: 40px;
+}
+.pur {
+  background: rgb(124, 58, 237);
+  color: white;
+  margin-top: 1.5rem;
+  font-size: 14px;
+}
+.pur:hover {
+  background: rgb(84, 18, 199);
+  color: white;
+  margin-top: 1.5rem;
+}
+.up {
+  background: transparent;
+  color: rgb(124, 58, 237);
+  /* border: 1px solid red; */
+  padding: 0;
+  margin-bottom: 17px;
+  border: none;
+}
+.up:hover {
+  background: transparent;
+  color: rgb(124, 58, 237);
+}
+#loginSec {
+  margin: 103px 0;
+  /* width: 100%; */
+}
+#loginSec > h1 {
+  color: white;
+}
+@media screen and (min-width: 200px) and (max-width: 520px) {
+  body {
+    overflow-x: hidden;
+  }
+  #subSec {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    flex-wrap: wrap;
+  }
+  .wh {
+    width: 223px;
+  }
+}
